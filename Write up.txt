@@ -1,0 +1,15 @@
+Sequences are mapped to hg19 uses BWAM-MEM tool. Merged with MergeSamFiles and Filtered, MarkDuplicated, Clean Sam.
+
+There's 2666 polymorphic sites with 1 in 10000 false positive in vcf qual field.
+
+Single nucleotide variants: 2328
+insertion/deletion variants: 277
+multi-nucleotide variants: 23
+variants with alternate alleles: 62
+AnnotateVCF tool and Group then Sort identified top 5 genes with largest sites. Listed below:
+
+RBFOX1: 161 Sites
+CACNA1H: 55 Sites
+USP7: 48 Sites
+ABAT 44 Sites
+CLCN7: 39 Sites
